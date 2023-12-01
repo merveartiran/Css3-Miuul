@@ -102,3 +102,35 @@
     -moz-line-clamp: 4;
     -moz-box-orient: vertical;
 }
+
+/* link*/
+#miuul_a{
+    color:blue;
+    background-color: black;
+    padding:10px;
+    text-decoration: none;
+}
+
+#miuul_a:hover{
+    color:black;
+    background-color: blue;
+    padding:9px;
+    text-decoration: none;
+}
+
+.miuul_width_height{
+    background-color: blue;
+    color:white;
+    margin-top:5px;
+    width: 200px;
+    width: 70%;
+    height: 50px;
+}
+
+.miuul_width_height:hover{
+    background-color: white;
+    color:blue;
+    cursor:pointer;
+    cursor:move;
+    cursor:text;
+}
