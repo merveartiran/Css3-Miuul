@@ -62,3 +62,21 @@
     border-top-right-radius: 25px;
     border-bottom-left-radius: 52.5px;
 }
+
+#parag_id4{
+    font-family: 'Playfair Display', serif;
+    background-color: black;
+    color:lightblue;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-left:10px;
+    padding-right:12px;
+    text-shadow: 2px 30px 4px yellow;
+}     
