@@ -14,42 +14,42 @@
 } */
 
 /* color, background-color, important */
-#parag_id{
-    color:red;
-    color:#ff0000;
-    color:rgb(255,0,0);
-    color:rgba(255,0,0,0.9);
-    color:hsl(0,100%,50%);
-    color:hsl(0,100%,50%);
-    color:hsla(0,100%,50%,0.9);
-    background-color: black!important;
+#parag_id {
+    color: red;
+    color: #ff0000;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0.9);
+    color: hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 50%);
+    color: hsla(0, 100%, 50%, 0.9);
+    background-color: black !important;
     background-color: blue;
 
     /* padding:10px 15px 25px 12px; */
     /* padding:10px 20px 15px; */
     /* padding:15px 20px; */
     /* padding:15px; */
-    padding-top:15px;
+    padding-top: 15px;
     padding-right: 15px;
-    padding-bottom:15px;
-    padding-left:15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 
     /* margin:10px 15px 25px 12px; */
     /* margin:10px 20px 15px; */
     /* margin:15px 20px; */
     /* margin:15px; */
-    margin-top:25px;
+    margin-top: 25px;
     margin-right: 15px;
-    margin-bottom:15px;
-    margin-left:15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 /* border border-radius */
-#div_id{
+#div_id {
     background-color: black;
-    color:yellow;
-    padding:25px;
-    margin-bottom:10px;
+    color: yellow;
+    padding: 25px;
+    margin-bottom: 10px;
     /* border-width: 20px;
     border-style: solid;
     border-color: blue; */
@@ -57,16 +57,17 @@
     /* border-radius: 20px;
     border-radius: 2px 15px 50px 3px; */
     /* border-radius:40px 5px; */
-    border-bottom-right-radius:25px ;
+    border-bottom-right-radius: 25px;
     border-top-left-radius: 15px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 52.5px;
 }
 
-#parag_id4{
+/* text */
+#parag_id4 {
     font-family: 'Playfair Display', serif;
     background-color: black;
-    color:lightblue;
+    color: lightblue;
     font-size: 18px;
     font-weight: 200;
     font-style: italic;
@@ -76,7 +77,28 @@
     line-height: 1.5;
     word-spacing: 5px;
     letter-spacing: 2px;
-    padding-left:10px;
-    padding-right:12px;
+    padding-left: 10px;
+    padding-right: 12px;
     text-shadow: 2px 30px 4px yellow;
-}     
+}
+
+/* column -count */
+.column-container {
+    column-count: 3;
+    column-rule: 1px solid red;
+    text-transform: capitalize;
+    text-align: justify;
+    column-gap: 20px;
+}
+
+/*line -clamp */
+.line-clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* other for browser */
+    display: -moz-box;
+    -moz-line-clamp: 4;
+    -moz-box-orient: vertical;
+}
