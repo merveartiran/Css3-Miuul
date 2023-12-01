@@ -158,5 +158,64 @@
     transform: skew(30deg,20deg);
 }
 
-/*display_ display box_sizing*/
+*{
+    box-sizing: border-box;
+}
 
+/*display_ display box_sizing*/
+.miuul_display{
+    /* 
+    display:none; 
+    visibility: hidden;  
+    visibility: visible;
+    */
+    display:block;
+    display:inline;
+    display:inline-block;
+    border:5px solid yellow;
+    width: 150px;
+    padding:20px;
+    /* w =200 p= 20*2 border=5*2  250px*/
+}
+
+
+/* List*/
+.menu{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu ul{
+    list-style-type:none ;
+    margin:0;
+    padding:0px;
+}
+.menu li{
+    float:left;
+}
+
+.menu a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:15px 19px;
+    text-decoration: none;
+}
+
+/* table */
+.custom-table{
+    width: 100%;
+    margin-top:25px;
+    border-collapse: collapse;
+}
+
+.custom-table td, .custom-table th{
+    border: 1px solid #dd1;
+    text-align: center;
+}
+.custom-table th{
+    background-color: #f2f2f2;
+}
+.custom-table tbody tr:nth-child(even){
+    background-color: #f2f2f2; 
+}
