@@ -396,3 +396,40 @@ a:active{
         display:inline-block;
     }
 }
+
+/*flexbox*/
+.miuul_flexbox1{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top:20px;
+    padding:20px;
+    border:1px solid blue
+}
+
+.miuul_flexbox2{
+    margin-top:10px;
+    background-color: blue;
+    color:white;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.miuul_flexbox3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miuul_flexbox3 .child{
+    margin:12px;
+    padding:12px;
+    border:1px solid #cc2;
+}
