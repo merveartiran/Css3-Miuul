@@ -220,7 +220,6 @@
     background-color: #f2f2f2; 
 }
 
-
 /*rem=html em=body calc: hesaplama*/
 /* html{
     font-size:16px;
@@ -231,5 +230,15 @@ body{
 }
 
 #parag6{
-font-size: calc(2em + 20px) ;
+font-size: calc(1em + 20px) ;
+}
+
+/* image */
+#image_id{
+    width: 100%;
+    height:450px;
+    background-image: url('./image/1.png');
+    background-size: cover;
+    /* object-fit: cover; */
+
 }
