@@ -104,120 +104,124 @@
 }
 
 /* link*/
-#miuul_a{
-    color:blue;
+#miuul_a {
+    color: blue;
     background-color: black;
-    padding:10px;
+    padding: 10px;
     text-decoration: none;
 }
 
-#miuul_a:hover{
-    color:black;
+#miuul_a:hover {
+    color: black;
     background-color: blue;
-    padding:9px;
+    padding: 9px;
     text-decoration: none;
 }
 
-.miuul_width_height{
+.miuul_width_height {
     background-color: blue;
-    color:white;
-    margin-top:5px;
+    color: white;
+    margin-top: 5px;
     width: 200px;
     width: 70%;
     height: 50px;
 }
 
-.miuul_width_height:hover{
+.miuul_width_height:hover {
     background-color: white;
-    color:blue;
-    cursor:pointer;
-    cursor:move;
-    cursor:text;
+    color: blue;
+    cursor: pointer;
+    cursor: move;
+    cursor: text;
 }
 
 /* transition - transform box-shadow */
-.miuul_transition_transform{
+.miuul_transition_transform {
     background-color: blue;
-    color:black;
-    width:75%;
+    color: black;
+    width: 75%;
     height: 100px;
-    padding:10px;
+    padding: 10px;
     transition: width 3s ease-in-out 3s, background-color 0.5s linear;
-   transition: 3s all;
-   box-shadow: -1px 1px 4px 1px rgba(0,0,0,0.5);
+    transition: 3s all;
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.5);
 
 }
 
-.miuul_transition_transform:hover{
+.miuul_transition_transform:hover {
     background-color: black;
-    color:blue;
-    width:100%;
+    color: blue;
+    width: 100%;
     transform: rotate(45deg);
     transform: scale(1.5);
-    transform: translate(50px,20px);
-    transform: skew(30deg,20deg);
+    transform: translate(50px, 20px);
+    transform: skew(30deg, 20deg);
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
 /*display_ display box_sizing*/
-.miuul_display{
+.miuul_display {
     /* 
     display:none; 
     visibility: hidden;  
     visibility: visible;
     */
-    display:block;
-    display:inline;
-    display:inline-block;
-    border:5px solid yellow;
+    display: block;
+    display: inline;
+    display: inline-block;
+    border: 5px solid yellow;
     width: 150px;
-    padding:20px;
+    padding: 20px;
     /* w =200 p= 20*2 border=5*2  250px*/
 }
 
 
 /* List*/
-.menu{
+.menu {
     background-color: #333;
     overflow: hidden;
 }
 
-.menu ul{
-    list-style-type:none ;
-    margin:0;
-    padding:0px;
-}
-.menu li{
-    float:left;
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
 }
 
-.menu a{
-    display:block;
-    color:white;
-    text-align:center;
-    padding:15px 19px;
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 19px;
     text-decoration: none;
 }
 
 /* table */
-.custom-table{
+.custom-table {
     width: 100%;
-    margin-top:25px;
+    margin-top: 25px;
     border-collapse: collapse;
 }
 
-.custom-table td, .custom-table th{
+.custom-table td,
+.custom-table th {
     border: 1px solid #dd1;
     text-align: center;
 }
-.custom-table th{
+
+.custom-table th {
     background-color: #f2f2f2;
 }
-.custom-table tbody tr:nth-child(even){
-    background-color: #f2f2f2; 
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 /*rem=html em=body calc: hesaplama*/
@@ -225,20 +229,42 @@
     font-size:16px;
 } */
 
-body{
-    font-size:20px;
+body {
+    font-size: 20px;
 }
 
-#parag6{
-font-size: calc(1em + 20px) ;
+#parag6 {
+    font-size: calc(1em + 20px);
 }
 
 /* image */
-#image_id{
+#image_id {
     width: 100%;
-    height:450px;
+    height: 450px;
     background-image: url('./image/1.png');
     background-size: cover;
     /* object-fit: cover; */
 
+}
+
+/*header*/
+header {
+    background-image: url('./image/2.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 22px;
+    height: 75vh;
+    /*view port: tarayıcının bize sağladığı, kullanıcı görübildiği alan demektir.*/
+    text-align: center;
+   
+}
+
+#linear_gradient_id{
+    background: linear-gradient(to right, #1500ff, #ec3a03);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 22px;
+    height: 75vh;
 }
