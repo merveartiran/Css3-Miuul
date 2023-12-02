@@ -289,3 +289,54 @@ header {
     max-width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
 }
+
+/* selector */
+p{
+    font-size: 1.5rem!important;
+}
+
+.parag1{
+    font-size: 1.5rem!important;
+}
+
+div {
+    background-color: red;;
+}
+
+div p {
+    background-color: blue;
+}
+
+
+div + p {
+    background-color: yellow;
+}
+
+
+div ~ p {
+    background-color: lightblue
+}
+
+li:nth-child(odd){
+    background-color: red;
+}
+
+li:nth-child(even){
+    background-color: blue;
+}
+
+li:nth-of-type(6){
+    background-color: yellow;
+}
+
+a{
+    background-color: red;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: blue;
+}
